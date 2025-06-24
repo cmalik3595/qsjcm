@@ -1,4 +1,4 @@
-# PythonProject
+# Qiskit Project
 
 # Setup for developement:
 
@@ -24,3 +24,19 @@
 # Run `pre-commit` locally.
 
 `pre-commit run --all-files`
+
+# Git commands
+
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global user.name "cmalik3595"
+git config --global user.email "cmalik3595@sdsu.edu"
+git config --global push.autosetupremote "true"
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+Add ssh key to repository in github
+git remote set-url origin git@github.com:cmalik3595/qsjcm.git
+git push
+
