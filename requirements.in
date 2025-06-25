@@ -3,4 +3,5 @@ qiskit
 qiskit-ibm-runtime
 qiskit-aer
 matplotlib
-
+qiskit-ibm-runtime
+qiskit_ibm_provider
